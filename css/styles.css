@@ -119,6 +119,7 @@ img {
 }
 
 .header-link {
+  display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 
@@ -397,8 +398,8 @@ img {
 
 .portfolio-wrap {
   padding: 20px 24px;
-  border-right: 1px solid var(--border-color);
   border-bottom: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
   border-left: 1px solid var(--border-color);
 }
 
