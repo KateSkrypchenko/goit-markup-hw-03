@@ -76,6 +76,8 @@ img {
 }
 
 .header-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
   margin-right: 93px;
 
   font-family: 'Raleway', sans-serif;
@@ -154,7 +156,9 @@ img {
 }
 
 .hero-title {
-  margin: 0 0 30px 0;
+  display: block;
+  margin: 0 auto 30px;
+  width: 696px;
 
   font-weight: 900;
   font-size: 44px;
@@ -207,7 +211,7 @@ img {
 }
 
 .features-item {
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 3 * 30px) / 4);
 }
 
 .features-item:not(:last-child) {
@@ -277,7 +281,7 @@ img {
 }
 
 .team-item {
-  flex-basis: calc((100% - 90px) / 4);
+  flex-basis: calc((100% - 3 * 30px) / 4);
   height: 368px;
 
   text-align: center;
@@ -288,8 +292,13 @@ img {
   background-color: var(--primary-bgc);
 }
 
+.team-box {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .card-title {
-  margin: 30px 0 10px 0;
+  margin-bottom: 10px;
 
   font-weight: 500;
   font-size: 16px;
@@ -309,6 +318,7 @@ img {
 
 .footer {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: var(--secondary-bgc);
 }
 
@@ -392,7 +402,7 @@ img {
 }
 
 .portfolio-item {
-  flex-basis: calc((100% - 60px) / 3);
+  flex-basis: calc((100% - 2 * 30px) / 3);
   
 }
 
