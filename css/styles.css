@@ -403,7 +403,6 @@ img {
 
 .portfolio-item {
   flex-basis: calc((100% - 2 * 30px) / 3);
-  
 }
 
 .portfolio-wrap {
@@ -420,7 +419,7 @@ img {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  
+
   color: var(--secondary-color-text);
 }
 
